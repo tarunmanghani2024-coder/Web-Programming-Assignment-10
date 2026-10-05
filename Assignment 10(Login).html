@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Form</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient( blue ,skyblue);
+        }
+        form {
+            height: 600px;
+            width: 430px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        form:hover {
+            box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            margin: 10px 0;
+        }
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            height: 70%;
+        }
+        label {
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        input {
+            border-radius: 8px;
+            border: 1px solid black;
+            padding: 10px 6px;
+            font-size: 16px;
+        }
+        a {
+            text-align: center;
+            color: black;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(12, 0, 70);
+            text-decoration: underline;
+        }
+        p {
+            text-align: center;
+        }
+        button {
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bolder;
+            border-radius: 16px;
+            border: none;
+            background: linear-gradient( blue ,skyblue);
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: hsl(240, 54%, 21%);
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form action="">
+            <h1>Login</h1>
+            <div class="inputs"><br>
+                <label for="">Email</label>
+                <input type="email"><br>
+                <label for="">Password</label>
+                <input type="text">
+            </div>
+            <button>Login</button>
+            <p>Not a member? <a href="Assignment 10 (signup).html">Sign Up</a></p>
+        </form>
+    </div>
+</body>
+</html>
